@@ -33,7 +33,7 @@ cout << setprecision(2) << fixed;
 
 
 cout << "Base Salary: " << setw(10) << right << baseSalary << endl; 
-cout << "Commission: " << setw(11) << right << commission << setprecision(2) << " (" << commissionPercent << "% of " << sales << ")" << endl;
+cout << "Commission: " << setw(11) << right << commission << setprecision(2) << " (" << setprecision(1) << commissionPercent << "% of " << setprecision(2) << sales << ")" << endl;
 cout << "Expenses: " << setw(13) << right << expenses << setprecision(2) << endl;
 cout << setw(23) << "--------" << right << endl << "Total: " << setw(15) << grossPay;
 }
